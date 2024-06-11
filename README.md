@@ -1,6 +1,15 @@
+
+# Algoritmos e estrutura de dados
+
+## Organização do diretório:
+• Esse diretório é estruturado a partir pastas com os nomes do algoritmo implementado, arquivos dentro de subpastas com o nome da linguagem e um arquivo RESUMO.md que demonstra a parte teórica necessária para que implementação da parte prática da implementação do algoritmo. 
+![Alt text](image-1.png)
+
+## Introdução:
+
 ## Maneiras de Resolver o mesmo problema
 * Estrutura de Dados
-* Aspecto importante: Melhor complexidade
+* Complexidade do problema
 ## Como medir a Complexidade?
 
 1. Hardware
@@ -10,6 +19,7 @@
 Existem diversos Hardware, Softwares, Linguagens e formas de implementar  um algoritmo, sendo assim para analisarmos a complexidade de um algoritmo precisamos trata-lo da forma mais **genérica e independente** desses fatores o possível. Sendo assim medir apenas tempo de um algoritmo é uma resposta enviesada sobre seu custo operacional.
 
 ### Metodologia de medição de complexidade
+![Alt text](image.png)
 
 #### 1. Contagem de operações:
 
