@@ -22,24 +22,6 @@ class EstruturaLinear:
         random.shuffle(lista_aleatoria)
         return lista_aleatoria
     
-    # Busca sequencial em vetor desordenado
-    def bubblesort(self, lista_aleatoria):
-        size = len(lista_aleatoria)
-       
-        for i in range(size -1): # Para cada item na lista:
-            swap = False
-            for j in range (size -1): # Compare com os itens
-                if lista_aleatoria[j] > lista_aleatoria[j + 1]:
-                    lista_aleatoria[j], lista_aleatoria[j + 1] = lista_aleatoria[j + 1], lista_aleatoria[j]
-                    swap = True
-            if not swap:
-                break
-
-        return lista_aleatoria
-    
-
-
-    
     def bubsort(self, lista_aleatoria):
         size = len(lista_aleatoria)
         cont = 0
